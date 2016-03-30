@@ -1,3 +1,4 @@
+D:\Net WorkSpace\Tickets2\Tickets2\bin\chromedriver.exe
 D:\Net WorkSpace\Tickets2\Tickets2\bin\ApplicationInsights.config
 D:\Net WorkSpace\Tickets2\Tickets2\bin\roslyn\csc.exe
 D:\Net WorkSpace\Tickets2\Tickets2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -41,7 +42,5 @@ D:\Net WorkSpace\Tickets2\Tickets2\bin\System.Web.Webpages.Deployment.xml
 D:\Net WorkSpace\Tickets2\Tickets2\bin\System.Web.Webpages.Razor.xml
 D:\Net WorkSpace\Tickets2\Tickets2\bin\System.Web.Helpers.xml
 D:\Net WorkSpace\Tickets2\Tickets2\bin\System.Web.Mvc.xml
-D:\Net WorkSpace\Tickets2\Tickets2\obj\Debug\Tickets.csprojResolveAssemblyReference.cache
 D:\Net WorkSpace\Tickets2\Tickets2\obj\Debug\Tickets2.dll
 D:\Net WorkSpace\Tickets2\Tickets2\obj\Debug\Tickets2.pdb
-D:\Net WorkSpace\Tickets2\Tickets2\bin\chromedriver.exe

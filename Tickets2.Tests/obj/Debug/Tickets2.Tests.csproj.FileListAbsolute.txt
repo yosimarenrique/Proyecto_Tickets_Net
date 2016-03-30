@@ -1,4 +1,4 @@
-D:\Net WorkSpace\Tickets2\Tickets2.Tests\obj\Debug\Tickets2.Tests.csprojResolveAssemblyReference.cache
+D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\chromedriver.exe
 D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\ApplicationInsights.config
 D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\roslyn\csc.exe
 D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -27,6 +27,6 @@ D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\System.Web.Razor.xml
 D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\System.Web.WebPages.xml
 D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Net WorkSpace\Tickets2\Tickets2.Tests\obj\Debug\Tickets2.Tests.csprojResolveAssemblyReference.cache
 D:\Net WorkSpace\Tickets2\Tickets2.Tests\obj\Debug\Tickets2.Tests.dll
 D:\Net WorkSpace\Tickets2\Tickets2.Tests\obj\Debug\Tickets2.Tests.pdb
-D:\Net WorkSpace\Tickets2\Tickets2.Tests\bin\Debug\chromedriver.exe

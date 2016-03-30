@@ -1,4 +1,3 @@
-D:\Net WorkSpace\Tickets2\AtddTickets.Tests\obj\Debug\AtddTickets.Tests.csprojResolveAssemblyReference.cache
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\ApplicationInsights.config
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\roslyn\csc.exe
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -12,6 +11,7 @@ D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\roslyn\System.Reflection.M
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\roslyn\vbc.exe
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\roslyn\VBCSCompiler.exe
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\chromedriver.exe
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\Default.srprofile
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\AtddTickets.Tests.dll.config
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\AtddTickets.Tests.dll
@@ -38,6 +38,6 @@ D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\System.Web.Razor.xml
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\System.Web.WebPages.xml
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Net WorkSpace\Tickets2\AtddTickets.Tests\obj\Debug\AtddTickets.Tests.csprojResolveAssemblyReference.cache
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\obj\Debug\AtddTickets.Tests.dll
 D:\Net WorkSpace\Tickets2\AtddTickets.Tests\obj\Debug\AtddTickets.Tests.pdb
-D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\chromedriver.exe
