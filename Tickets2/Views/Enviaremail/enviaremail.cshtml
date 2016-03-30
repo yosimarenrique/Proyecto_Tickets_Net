@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/principal.css" rel="stylesheet" type="text/css" />
+    <title>Enviar Email</title>
+</head>
+<body>
+    <div class="row">
+
+    </div>
+    <div class="row center-block espacio-arriba">
+        <div class="col-md-6 ">
+            <form class="form-horizontal " method="post" action="@Url.Action("enviaremail","Enviaremail")">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Nombre</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escriba aqui su nombre completo">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Ubicacion</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="ubicacion" class="form-control" id="ubicacion">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Telefono</label>
+                    <div class="col-sm-6">
+                        <input type="text" name="telefono" class="form-control" id="telefono">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Descrpcion</label>
+                    <div class="col-sm-6">
+                        <textarea class="form-control" name="descripcion" rows="5" cols="33"   maxlength="280" onscroll="1"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-10 center-block text-center">
+                        <button type="submit" class="btn btn-primary">Enviar E-mail</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

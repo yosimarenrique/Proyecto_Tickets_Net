@@ -1,0 +1,95 @@
+﻿Discovering target: Default
+Discovering tests from assembly: D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\AtddTickets.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AtddTickets.Tests/Default - 
+#1: Default - 
+#2: AtddTickets.Tests - 
+#3: Enviaremail - 
+#4: Enviar mensaje - TestAssembly:AtddTickets.Tests/Feature:Enviaremail/Scenario:Enviar+mensaje
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for AtddTickets.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\yosimar.valega\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given el usuario ingresa a index.xhtml
+T:done: EnviaremailSteps.GivenElUsuarioIngresaAIndex_Xhtml() (3,0s)
+B:When el usuario ingresa el nombre <nombre>
+T:done: EnviaremailSteps.WhenElUsuarioIngresaElNombre("<nombre>") (0,2s)
+B:And se ingresa la ubicacion <ubicacion>
+T:done: EnviaremailSteps.WhenSeIngresaLaUbicacion("<ubicacion>") (0,2s)
+B:And se ingresa el telefono <telefono>
+T:done: EnviaremailSteps.WhenSeIngresaElTelefono("<telefono>") (0,1s)
+B:And se ingresa la descripcion <descripcion>
+T:done: EnviaremailSteps.WhenSeIngresaLaDescripcion("<descripcion>") (0,1s)
+B:And presiona el boton enviar correo
+T:done: EnviaremailSteps.WhenPresionaElBotonEnviarCorreo() (0,1s)
+B:Then se muestra mensaje de envio
+T:error: Assert.AreEqual failed. Expected:<¡Bien hecho! Correo enviado Exitosamente>. Actual:<Error al enviar correo...!>. 
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 11,7084868 seconds
+Test #4/1 is started on thread #0
+B:Given el usuario ingresa a index.xhtml
+T:done: EnviaremailSteps.GivenElUsuarioIngresaAIndex_Xhtml() (3,0s)
+B:When el usuario ingresa el nombre <nombre>
+T:done: EnviaremailSteps.WhenElUsuarioIngresaElNombre("<nombre>") (0,1s)
+B:And se ingresa la ubicacion <ubicacion>
+T:done: EnviaremailSteps.WhenSeIngresaLaUbicacion("<ubicacion>") (0,2s)
+B:And se ingresa el telefono <telefono>
+T:done: EnviaremailSteps.WhenSeIngresaElTelefono("<telefono>") (0,2s)
+B:And se ingresa la descripcion <descripcion>
+T:done: EnviaremailSteps.WhenSeIngresaLaDescripcion("<descripcion>") (0,1s)
+B:And presiona el boton enviar correo
+T:done: EnviaremailSteps.WhenPresionaElBotonEnviarCorreo() (0,1s)
+B:Then se muestra mensaje de envio
+T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:65454
+T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+T:   --- End of inner exception stack trace ---
+T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+T:   at System.Net.HttpWebRequest.GetRequestStream()
+T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 15,1614252 seconds
+Test #4/2 is started on thread #0
+T:warning: The previous ScenarioContext was not disposed.
+B:Given el usuario ingresa a index.xhtml
+T:done: EnviaremailSteps.GivenElUsuarioIngresaAIndex_Xhtml() (2,8s)
+B:When el usuario ingresa el nombre <nombre>
+T:done: EnviaremailSteps.WhenElUsuarioIngresaElNombre("<nombre>") (0,1s)
+B:And se ingresa la ubicacion <ubicacion>
+T:done: EnviaremailSteps.WhenSeIngresaLaUbicacion("<ubicacion>") (0,1s)
+B:And se ingresa el telefono <telefono>
+T:done: EnviaremailSteps.WhenSeIngresaElTelefono("<telefono>") (0,1s)
+B:And se ingresa la descripcion <descripcion>
+T:done: EnviaremailSteps.WhenSeIngresaLaDescripcion("<descripcion>") (0,1s)
+B:And presiona el boton enviar correo
+T:done: EnviaremailSteps.WhenPresionaElBotonEnviarCorreo() (0,1s)
+B:Then se muestra mensaje de envio
+T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:65489
+T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+T:   --- End of inner exception stack trace ---
+T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+T:   at System.Net.HttpWebRequest.GetRequestStream()
+T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+Test #4 is finished on thread #0 as Failed within 15,0634128 seconds
+Appdomain Disposed
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

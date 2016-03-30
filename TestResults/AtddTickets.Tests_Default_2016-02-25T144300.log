@@ -1,0 +1,98 @@
+﻿Discovering target: Default
+Discovering tests from assembly: D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\AtddTickets.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AtddTickets.Tests/Default - 
+#1: Default - 
+#2: AtddTickets.Tests - 
+#3: Enviaremail - 
+#4: Enviar mensaje - TestAssembly:AtddTickets.Tests/Feature:Enviaremail/Scenario:Enviar+mensaje
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for AtddTickets.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\yosimar.valega\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given el usuario ingresa a index.xhtml
+T:done: EnviaremailSteps.GivenElUsuarioIngresaAIndex_Xhtml() (15,1s)
+B:And el usuario ingresa el nombre <nombre>
+T:No matching step definition found for the step. Use the following code to create one:
+T:        [Given(@"el usuario ingresa el nombre (.*)")]
+T:public void GivenElUsuarioIngresaElNombre(string p0)
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+B:And se ingresa la ubicacion <ubicacion>
+T:No matching step definition found for the step. Use the following code to create one:
+T:        [Given(@"se ingresa la ubicacion (.*)")]
+T:public void GivenSeIngresaLaUbicacion(string p0)
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+B:And se ingresa el telefono <telefono>
+T:No matching step definition found for the step. Use the following code to create one:
+T:        [Given(@"se ingresa el telefono (.*)")]
+T:public void GivenSeIngresaElTelefono(string p0)
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+B:And se ingresa la descripcion <descripcion>
+T:No matching step definition found for the step. Use the following code to create one:
+T:        [Given(@"se ingresa la descripcion (.*)")]
+T:public void GivenSeIngresaLaDescripcion(string p0)
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+B:And presiona el boton enviar correo
+T:No matching step definition found for the step. Use the following code to create one:
+T:        [Given(@"presiona el boton enviar correo")]
+T:public void GivenPresionaElBotonEnviarCorreo()
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+B:Then se muestra mensaje de envio
+T:skipped because of previous errors
+T:Pending: No matching step definition found for one or more steps.
+T:using System;
+T:using TechTalk.SpecFlow;
+T:namespace MyNamespace
+T:{
+T:    [Binding]
+T:    public class StepDefinitions
+T:    {
+T:        [Given(@"el usuario ingresa el nombre (.*)")]
+T:public void GivenElUsuarioIngresaElNombre(string p0)
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+T:        [Given(@"se ingresa la ubicacion (.*)")]
+T:public void GivenSeIngresaLaUbicacion(string p0)
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+T:        [Given(@"se ingresa el telefono (.*)")]
+T:public void GivenSeIngresaElTelefono(string p0)
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+T:        [Given(@"se ingresa la descripcion (.*)")]
+T:public void GivenSeIngresaLaDescripcion(string p0)
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+T:        [Given(@"presiona el boton enviar correo")]
+T:public void GivenPresionaElBotonEnviarCorreo()
+T:{
+T:    ScenarioContext.Current.Pending();
+T:}
+T:    }
+T:}
+Test #4 is finished on thread #0 as Pending within 20,0960519 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0

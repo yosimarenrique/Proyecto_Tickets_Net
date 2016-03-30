@@ -1,0 +1,84 @@
+﻿Discovering target: Default
+Discovering tests from assembly: D:\Net WorkSpace\Tickets2\AtddTickets.Tests\bin\Debug\AtddTickets.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AtddTickets.Tests/Default - 
+#1: Default - 
+#2: AtddTickets.Tests - 
+#3: Enviaremail - 
+#4: Enviar mensaje - TestAssembly:AtddTickets.Tests/Feature:Enviaremail/Scenario:Enviar+mensaje
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for AtddTickets.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\yosimar.valega\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given el usuario ingresa a index.xhtml
+T:done: EnviaremailSteps.GivenElUsuarioIngresaAIndex_Xhtml() (5,6s)
+B:When el usuario ingresa el nombre Juan Valdez
+T:done: EnviaremailSteps.WhenElUsuarioIngresaElNombre("Juan Valdez") (0,2s)
+B:And se ingresa la ubicacion Tech TI
+T:done: EnviaremailSteps.WhenSeIngresaLaUbicacion("Tech TI") (0,2s)
+B:And se ingresa el telefono  3005458538
+T:done: EnviaremailSteps.WhenSeIngresaElTelefono(" 3005458538") (0,3s)
+B:And se ingresa la descripcion Cambio teclado Prueba
+T:error: no such element
+T:  (Session info: chrome=48.0.2564.116)
+T:  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64)
+B:And presiona el boton enviar correo
+T:skipped because of previous errors
+B:Then se muestra mensaje de envio
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 9,0015149 seconds
+Test #4/1 is started on thread #0
+B:Given el usuario ingresa a index.xhtml
+T:done: EnviaremailSteps.GivenElUsuarioIngresaAIndex_Xhtml() (4,3s)
+B:When el usuario ingresa el nombre Juan Valdez
+T:done: EnviaremailSteps.WhenElUsuarioIngresaElNombre("Juan Valdez") (0,1s)
+B:And se ingresa la ubicacion Tech TI
+T:done: EnviaremailSteps.WhenSeIngresaLaUbicacion("Tech TI") (0,1s)
+B:And se ingresa el telefono  3005458538
+T:done: EnviaremailSteps.WhenSeIngresaElTelefono(" 3005458538") (0,2s)
+B:And se ingresa la descripcion Cambio teclado Prueba
+T:error: no such element
+T:  (Session info: chrome=48.0.2564.116)
+T:  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64)
+B:And presiona el boton enviar correo
+T:skipped because of previous errors
+B:Then se muestra mensaje de envio
+T:skipped because of previous errors
+Scheduler: dequeuing a rescheduled item: 4
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Test #4 is finished on thread #0 as Failed within 6,4593695 seconds
+Test #4/2 is started on thread #0
+B:Given el usuario ingresa a index.xhtml
+T:done: EnviaremailSteps.GivenElUsuarioIngresaAIndex_Xhtml() (3,3s)
+B:When el usuario ingresa el nombre Juan Valdez
+T:done: EnviaremailSteps.WhenElUsuarioIngresaElNombre("Juan Valdez") (0,1s)
+B:And se ingresa la ubicacion Tech TI
+T:done: EnviaremailSteps.WhenSeIngresaLaUbicacion("Tech TI") (0,1s)
+B:And se ingresa el telefono  3005458538
+T:done: EnviaremailSteps.WhenSeIngresaElTelefono(" 3005458538") (0,2s)
+B:And se ingresa la descripcion Cambio teclado Prueba
+T:error: no such element
+T:  (Session info: chrome=48.0.2564.116)
+T:  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64)
+B:And presiona el boton enviar correo
+T:skipped because of previous errors
+B:Then se muestra mensaje de envio
+T:skipped because of previous errors
+Test #4 is finished on thread #0 as Failed within 5,4153097 seconds
+Appdomain Disposed
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
